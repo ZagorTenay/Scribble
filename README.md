@@ -1,14 +1,12 @@
 # Scribble
 
-Project:  Scribble
-
 Scribble is a word game in which two human opponents (player1 vs player2) score points by placing letters onto a game-board which is divided into a 15×15 grid of cells. The letters must form words which, in crossword fashion, flow left to right in rows or downwards in columns consecutively.
 
-General Information
+### General Information
 
 The game is played by two opponents on a board with a 15×15 grid of cells, each of which accommodates a single letter. In their turns, players can try to form an acceptable word or they can exchange some of their letters or they can pass their turns. A word is acceptable only if it is located in given dictionary.
 
-Rules
+### Rules
 
     1. Initially the dictionary words and letter reservoir file must be loaded. Dictionary contains the list of acceptable words, letter reservoir file contains the amount and point of each letter.  
 
@@ -28,3 +26,11 @@ Rules
     7. Players can query the dictionary (max. 3 times for each turn) by using letters and dots. A dot represents any single letter.
 
     8. The game continues until two opponents pass their turns twice (4 consecutive passes) or reservoir gets empty.
+
+### Screenshots
+
+![Screenshot](https://github.com/ZagorTenay/Scribble/blob/master/ss1.png)
+
+![Screenshot](https://github.com/ZagorTenay/Scribble/blob/master/ss2.png)
+
+![Screenshot](https://github.com/ZagorTenay/Scribble/blob/master/ss3.png)
